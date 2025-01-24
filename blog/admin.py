@@ -6,6 +6,6 @@ class PostAdmin(admin.ModelAdmin):
     empty_value_display = 'empty'
     list_display = ('title', 'status','counted_views','published_date')
     list_filter = ('status',)
-    ordering = ['-created_date']
+    #ordering = ['-created_date']
     search_fields = ['title', 'status','counted_views','published_date']
 admin.site.register(Post,PostAdmin)
