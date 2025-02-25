@@ -2817,6 +2817,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: 30px;
 }
 
+
 .single-testimonial h4 {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -4493,4 +4494,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-text a, .footer-text i {
   color: #f8b600;
+}
+
+.custom-img {
+  max-width: 50px;  /* حداکثر عرض */
+  height: auto;  /* ارتفاع متناسب */
 }

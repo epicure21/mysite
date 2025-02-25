@@ -518,6 +518,11 @@
         .overlay-bg {
             background: rgba(#000, .8);
         }
+        .custom-img {
+            max-width: 500px;  /* حداکثر عرض */
+            height: auto;  /* ارتفاع متناسب */
+        }
+
     }
     .navigation-area {
         border-top: 1px solid #eee;
